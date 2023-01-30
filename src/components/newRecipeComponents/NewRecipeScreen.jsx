@@ -111,7 +111,7 @@ const NewRecipeScreen = () => {
 						</div>
 						<h3>Ingredients</h3>
 						<div className={styles.input_container}>
-							<div className={styles.ingredient_inputs}>
+							<div className={styles.ingre_inputs}>
 								<input
 									placeholder="Ingredient"
 									value={name}
@@ -141,7 +141,7 @@ const NewRecipeScreen = () => {
 						/>
 						<button
 							type="submit"
-							className="blue-btn"
+							className="btn"
 						>
 							Submit
 						</button>

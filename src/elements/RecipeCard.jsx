@@ -10,9 +10,9 @@ const RecipeCard = ({ recipe }) => {
 		navigate(`/recipe/${recipe.recipe_id}`);
 	};
 	return (
-		<div className={styles.recipe_card}>
+		<div className={styles.recipeCard}>
 			<div>
-				<div className={styles.recipe_img_container}>
+				<div className={styles.container}>
 					<img
 						alt="images"
 						src={recipe.image_url}

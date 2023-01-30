@@ -13,14 +13,14 @@ header {
 	padding: 0px 50px;
 }
 
-.nav_btn {
+.navbtn {
 	color: black;
 	background-color: palevioletred;
 
 	transition: 0.1 ease-in-out;
 }
 
-.nav_btn:hover {
+.navbtn:hover {
 	color: white;
 	background-color: palevioletred;
 }

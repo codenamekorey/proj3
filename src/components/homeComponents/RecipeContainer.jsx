@@ -17,9 +17,9 @@ const RecipeContainer = ({ recipes }) => {
 		});
 
 	return (
-		<section className={styles.recipe_section}>
+		<section className={styles.rsection}>
 			<h2>Search a recipe!</h2>
-			<span className={styles.search_bar}>
+			<span className={styles.sbar}>
 				<BiSearchAlt2
 					size="2em"
 					color="white"
@@ -31,7 +31,7 @@ const RecipeContainer = ({ recipes }) => {
 					placeholder="Search for a Recipe"
 				/>
 			</span>
-			<div className={styles.recipe_container}>
+			<div className={styles.rcontainer}>
 				{recipeDisplay ? recipeDisplay : <h2>No Recipes :(</h2>}
 			</div>
 		</section>

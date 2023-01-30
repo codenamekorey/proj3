@@ -1,4 +1,10 @@
-.recipe_card {
+.container {
+	width: 300px;
+	height: 300px;
+	margin-bottom: 10px;
+}
+
+.recipeCard {
 	width: 300px;
 	height: 450px;
 	align-items: center;
@@ -9,12 +15,6 @@
 	padding-bottom: 10px;
 	box-sizing: border-box;
 	border-radius: 3px;
-}
-
-.recipe_img_container {
-	width: 300px;
-	height: 300px;
-	margin-bottom: 10px;
 }
 
 img {
